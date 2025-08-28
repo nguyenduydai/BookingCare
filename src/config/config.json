@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password": "2003dai2003",
+    "database": "bookingcare",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "query":{
+      "raw":true
+    },
+    "timezone":"+07:00",
+    "logging":false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
